@@ -1,0 +1,7 @@
+#GEMFILE
+source 'https://rubygems.org'
+gem 'rspec'
+
+bundle install --path=.bundle --binstubs
+
+./bin/rspec --init
